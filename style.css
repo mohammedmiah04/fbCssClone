@@ -1,0 +1,161 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  font-family: "Hind Madurai", sans-serif;
+}
+button {
+  cursor: pointer;
+}
+header {
+  display: flex;
+  height: 80px;
+  background-color: rgb(52, 78, 144);
+  justify-content: center;
+}
+
+#navbar-content-container {
+  display: flex;
+  width: 950px;
+  justify-content: space-between;
+}
+
+#logo {
+  font-size: 45px;
+  margin-top: 14px;
+  color: white;
+  font-family: "Hind Madurai", sans-serif;
+}
+
+#login-form-container {
+  position: relative;
+  align-self: center;
+  width: 440px;
+  color: white;
+  left: 39px;
+}
+#login-form {
+  display: flex;
+  color: white;
+  align-self: center;
+  font-size: 14px;
+}
+
+#submit {
+  position: sticky;
+  height: 22px;
+  border-radius: 5px;
+  width: 59px;
+  border: 1px solid rgb(24, 71, 128);
+  background-color: rgb(64, 95, 162);
+  color: #ffffff;
+  align-self: center;
+}
+
+#login-inputs {
+  height: 21px;
+  width: 158px;
+  border-radius: 4px;
+  border: 1px solid lightgrey;
+  margin: 3px 12px 3px 0px;
+}
+
+.main-container-below-nav {
+  display: flex;
+  height: 520px;
+  background-color: rgb(238, 238, 244);
+  justify-content: center;
+}
+
+.main-container-content-holder {
+  display: flex;
+  justify-content: space-between;
+  width: 950px;
+}
+
+#left-half {
+  display: flex;
+  flex-direction: column;
+  height: 300px;
+  position: relative;
+  justify-content: space-between;
+  top: 70px;
+}
+
+#right-half {
+  margin-top: 20px;
+}
+
+.content {
+  height: 350px;
+  width: 420px;
+}
+
+.free-text {
+  margin-top: 8px;
+}
+.sub-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  font-size: 15px;
+
+  height: 120px;
+  position: relative;
+  top: 46px;
+}
+
+.sign-up-inputs {
+  height: 22px;
+  width: 195px;
+  border-radius: 4px;
+  border: 1px solid grey;
+  padding-left: 10px;
+  font-size: 15px;
+  margin-top: 16px;
+}
+
+#sign-up-button {
+  display: block;
+  margin-top: 8px;
+  height: 38px;
+  width: 157px;
+  font-size: 16px;
+  color: white;
+  background-color: rgb(113, 142, 64);
+  border-radius: 7px;
+  margin-top: 24px;
+  margin-bottom: 16px;
+}
+
+select {
+  height: 34px;
+  width: 65px;
+}
+
+.longer-sign-up-inputs {
+  width: 408px;
+  margin-top: 7px;
+}
+
+.b-g {
+  font-size: 16px;
+  font-weight: bold;
+  margin-top: 18px;
+  margin-bottom: 7px;
+  color: grey;
+}
+
+.radio-text {
+  font-size: 18px;
+  margin-left: 5px;
+  margin-right: 4px;
+}
+
+#celeb-text {
+  font-size: 16px;
+  color: rgb(55, 55, 55);
+}
+
+.text {
+  font-size: 18px;
+}
